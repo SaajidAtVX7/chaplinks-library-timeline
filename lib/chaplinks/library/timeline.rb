@@ -1,4 +1,5 @@
 require "chaplinks/library/timeline/version"
+require "chaplinks/library/timeline/railtie" if defined? Rails
 
 module Chaplinks
   module Library
