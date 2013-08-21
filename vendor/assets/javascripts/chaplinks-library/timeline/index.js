@@ -1,2 +1,2 @@
-//= require timeline
-//= require timeline-locales
+//= require ./timeline
+//= require ./timeline-locales
