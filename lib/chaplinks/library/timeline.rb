@@ -6,9 +6,8 @@ module Chaplinks
     module Timeline
       class Engine < ::Rails::Engine
         initializer "assets.precompile" do |app|
-          app.config.assets.precompile += %w( chaplinks-library/timeline )
+          app.config.assets.precompile += %w( chaplinks-library/timeline chaplinks-library/timeline/index.js chaplinks-library/timeline/timeline.css )
         end
-
       end
     end
   end
