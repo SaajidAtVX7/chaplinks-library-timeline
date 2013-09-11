@@ -1,2 +1,1 @@
-//= require ./timeline
-//= require ./timeline-locales
+//= require_tree .
